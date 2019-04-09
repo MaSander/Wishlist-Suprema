@@ -65,7 +65,7 @@ namespace WishlistSuprema.Controllers
             }
             catch(Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new{mensage= "problema com o logim de usuario brimbrim" + ex.Message});
             }
         }
     }

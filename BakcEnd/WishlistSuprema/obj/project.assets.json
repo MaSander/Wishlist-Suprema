@@ -12716,11 +12716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\51755101856\\source\\repos\\WishlistSuprema\\WishlistSuprema\\WishlistSuprema.csproj",
+      "projectUniqueName": "C:\\Users\\51755101856\\Desktop\\Wishlist-Suprema\\BakcEnd\\WishlistSuprema\\WishlistSuprema.csproj",
       "projectName": "WishlistSuprema",
-      "projectPath": "C:\\Users\\51755101856\\source\\repos\\WishlistSuprema\\WishlistSuprema\\WishlistSuprema.csproj",
+      "projectPath": "C:\\Users\\51755101856\\Desktop\\Wishlist-Suprema\\BakcEnd\\WishlistSuprema\\WishlistSuprema.csproj",
       "packagesPath": "C:\\Users\\51755101856\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\51755101856\\source\\repos\\WishlistSuprema\\WishlistSuprema\\obj\\",
+      "outputPath": "C:\\Users\\51755101856\\Desktop\\Wishlist-Suprema\\BakcEnd\\WishlistSuprema\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

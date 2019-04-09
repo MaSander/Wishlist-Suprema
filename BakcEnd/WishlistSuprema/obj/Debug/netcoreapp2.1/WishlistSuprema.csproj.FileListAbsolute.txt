@@ -12,3 +12,17 @@ C:\Users\51755101856\source\repos\WishlistSuprema\WishlistSuprema\obj\Debug\netc
 C:\Users\51755101856\source\repos\WishlistSuprema\WishlistSuprema\bin\Debug\netcoreapp2.1\WishlistSuprema.pdb
 C:\Users\51755101856\source\repos\WishlistSuprema\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.dll
 C:\Users\51755101856\source\repos\WishlistSuprema\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.pdb
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\bin\Debug\netcoreapp2.1\WishlistSuprema.deps.json
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\bin\Debug\netcoreapp2.1\WishlistSuprema.runtimeconfig.json
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\bin\Debug\netcoreapp2.1\WishlistSuprema.runtimeconfig.dev.json
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\bin\Debug\netcoreapp2.1\WishlistSuprema.dll
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\bin\Debug\netcoreapp2.1\WishlistSuprema.pdb
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.csprojAssemblyReference.cache
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.csproj.CoreCompileInputs.cache
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.RazorAssemblyInfo.cache
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.RazorAssemblyInfo.cs
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.AssemblyInfoInputs.cache
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.AssemblyInfo.cs
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.RazorTargetAssemblyInfo.cache
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.dll
+C:\Users\51755101856\Desktop\Wishlist-Suprema\BakcEnd\WishlistSuprema\obj\Debug\netcoreapp2.1\WishlistSuprema.pdb

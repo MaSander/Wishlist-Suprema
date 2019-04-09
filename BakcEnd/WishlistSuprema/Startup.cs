@@ -56,6 +56,15 @@ namespace WishlistSuprema
                     ValidAudience = "wishlist.WebApi"
                 };
             });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -74,6 +83,8 @@ namespace WishlistSuprema
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "WishList Suprema API");
             });
+
+            app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
             app.UseMvc();
         }
