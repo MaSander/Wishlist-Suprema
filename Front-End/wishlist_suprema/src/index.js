@@ -2,17 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './pages/Login/App';
-import Lista from './pages/Wishlist/Wishlist';
+import Wishlist from './pages/Wishlist/Wishlist';
+import { usuarioAutenticado } from './services/auth';
 
-import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
+import {Route, BrowserRouter as Router, Switch, Redirect} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+
+const Permissao = ({component : Component}) => (
+    <Route 
+        render = {props => usuarioAutenticado() ?
+            (<Component {...props}/>) :
+            (<Redirect to={{ pathname : '/Wishlist', state : {from: props.location}}} />)
+        }
+    />
+);
 
 const rotas = (
     <Router>
         <div>
             <Switch>
-                <Route exect path='/' component={App} />
-                <Route path='/Wishlist' component={Lista} />
+                <Route exact path='/' component={App} />
+                <Permissao path='/Wishlist' component={Wishlist} />
             </Switch>
         </div>
     </Router>

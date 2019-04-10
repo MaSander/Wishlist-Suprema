@@ -45,7 +45,8 @@ namespace WishlistSuprema.Controllers
         {
             try
             {
-                return Ok(DesejoRepository.ListaDesejos());
+                List<Desejos> lista = DesejoRepository.ListaDesejos();
+                return Ok(lista);
             }
             catch(Exception ex)
             {

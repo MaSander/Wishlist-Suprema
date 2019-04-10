@@ -30,7 +30,7 @@ class App extends Component {
     })
         .then(data => {
           localStorage.setItem("usuario-wishlist", data.data.token);
-          this.props.history.push('/Wishlist')
+          this.props.history.push("/Wishlist")
           console.log(data);
         })
         .catch(erro => {console.log(erro)});

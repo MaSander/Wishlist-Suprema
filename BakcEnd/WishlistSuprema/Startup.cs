@@ -84,7 +84,7 @@ namespace WishlistSuprema
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "WishList Suprema API");
             });
 
-            app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+            app.UseCors("CorsPolicy");
 
             app.UseMvc();
         }
