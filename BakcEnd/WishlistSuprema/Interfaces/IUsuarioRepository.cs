@@ -11,5 +11,7 @@ namespace WishlistSuprema.Interfaces
         void Cadastrar(Usuarios usuario);
 
         Usuarios BuscarPorEmailSenha(string email, string senha);
+
+        Usuarios VerificarEmail(string email);
     }
 }

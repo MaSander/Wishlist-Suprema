@@ -12,7 +12,6 @@ namespace WishlistSuprema.Repositories
     {
         public Usuarios BuscarPorEmailSenha(string email, string senha)
         {
-            //throw new NotImplementedException();
             using (WishList ctx = new WishList())
             {
                 return ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
@@ -25,6 +24,21 @@ namespace WishlistSuprema.Repositories
             {
                 ctx.Usuarios.Add(usuarios);
                 ctx.SaveChanges();                
+            }
+        }
+
+        public Usuarios VerificarEmail(string email)
+        {
+            using(WishList ctx = new WishList())
+            {
+                var usuarioEncontrado = ctx.Usuarios.FirstOrDefault(x => x.Email == email);
+
+                if (usuarioEncontrado != null)
+                {
+                    return usuarioEncontrado;
+                }
+
+                return null;
             }
         }
     }

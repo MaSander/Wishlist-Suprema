@@ -27,7 +27,13 @@ namespace WishlistSuprema.Controllers
         {
             try
             {
-                // TODO arrumar o retorno do erro ao cadastrar um usuário com um email já existente
+                var verEmail = UsuarioRepository.VerificarEmail(usuario.Email);
+
+                if(verEmail != null)
+                {
+                    return BadRequest(error: "Email ja utilizado");
+                }
+
                 UsuarioRepository.Cadastrar(usuario);
 
                 return Ok();
